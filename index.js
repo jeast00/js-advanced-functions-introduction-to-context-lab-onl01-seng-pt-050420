@@ -61,7 +61,7 @@ const wagesEarnedOnDate = function(empRecord, foundDate) {
 }
 
 const allWagesFor = function(empRecord) {
-  
+  let dates = 
 }
 
 
