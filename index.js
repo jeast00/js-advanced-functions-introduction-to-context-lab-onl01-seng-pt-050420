@@ -78,6 +78,10 @@ const findEmployeeByFirstName = function(srcArray, firstName) {
   })
 }
 
+const calculatePayroll = function(empArray) {
+  
+}
+
 
 
 
