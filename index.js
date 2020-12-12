@@ -54,7 +54,9 @@ const hoursWorkedOnDate = function(empRecord, foundDate) {
   return (outEvent.hour - inEvent.hour) / 100
 }
 
-const wagesEarnedOnDate = function(empRecord)
+const wagesEarnedOnDate = function(empRecord, foundDate) {
+  let wageEarned = hoursWorkedOnDate(empRecord, foundDate) *
+}
 
 
 
