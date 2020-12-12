@@ -27,7 +27,7 @@ const createTimeInEvent = function(empRecord, dateStamp) {
       hour: parseInt(hour, 10),
       date,
     })
-  
+  return empRecord
 }
 
 
