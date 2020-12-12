@@ -24,7 +24,8 @@ const createTimeInEvent = function(empRecord, dateStamp) {
   empRecord.timeInEvents.push(
     {
       type: "Time In",
-      hour: parseInt
+      hour: parseInt(hour, 10),
+      date,
     })
   
 }
