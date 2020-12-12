@@ -61,8 +61,8 @@ const wagesEarnedOnDate = function(empRecord, foundDate) {
 }
 
 const allWagesFor = function(empRecord) {
-  let dates = empRecord.timeInEvents.find(function(event){
-    
+  let dates = empRecord.timeInEvents.map(function(event){
+    event.date
   })
 }
 
