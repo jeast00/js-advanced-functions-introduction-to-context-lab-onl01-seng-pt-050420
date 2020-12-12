@@ -64,6 +64,8 @@ const allWagesFor = function(empRecord) {
   let dates = empRecord.timeInEvents.map(function(event){
     return event.date
   })
+  
+  let 
 }
 
 
