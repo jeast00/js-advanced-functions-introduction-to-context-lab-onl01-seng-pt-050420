@@ -21,5 +21,14 @@ const createEmployeeRecords = function(rowData) {
 const createTimeInEvent = function(empRecord, dateStamp) {
   let [date, hour] = dateStamp.split(" ")
   
+  empRecord.timeInEvents
   
 }
+
+
+
+
+
+
+
+
