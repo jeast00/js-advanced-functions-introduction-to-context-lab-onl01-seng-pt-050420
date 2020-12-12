@@ -72,6 +72,10 @@ const allWagesFor = function(empRecord) {
   return pay
 }
 
+const findEmployeeByFirstName = function(srcArray, firsName) {
+  
+}
+
 
 
 
