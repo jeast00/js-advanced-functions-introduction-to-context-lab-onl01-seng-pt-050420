@@ -1,6 +1,6 @@
 // Your code here
 
 
-const createEmployeeRecord = function(fn, ln, title, pay) {
+const createEmployeeRecord = function(row) {
   return Object.assign(fn, ln, title, pay)
 }
