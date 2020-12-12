@@ -43,7 +43,7 @@ const createTimeOutEvent = function(empRecord, dateStamp) {
 }
 
 const hoursWorkedOnDate = function(empRecord, foundDate) {
-  let []
+  let inEvent = 
   
   
   return empRecord
