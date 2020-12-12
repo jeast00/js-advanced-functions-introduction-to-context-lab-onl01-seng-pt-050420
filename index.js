@@ -51,7 +51,7 @@ const hoursWorkedOnDate = function(empRecord, foundDate) {
     return event.date === foundDate
   })
   
-  return empRecord
+  return (outEvent )
 }
 
 
