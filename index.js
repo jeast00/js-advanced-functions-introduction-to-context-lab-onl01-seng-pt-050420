@@ -67,7 +67,7 @@ const allWagesFor = function(empRecord) {
   
   let pay = dates.reduce(function(memo, data){
     return memo + wagesEarnedOnDate(empRecord, data)
-  })
+  }, 0)
 }
 
 
