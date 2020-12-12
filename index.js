@@ -13,5 +13,7 @@ const createEmployeeRecord = function(row) {
 }
 
 const createEmployeeRecords = function(rowData) {
-  return rowData.map()
+  return rowData.map(function(row)) {
+    
+  }
 }
