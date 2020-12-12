@@ -12,4 +12,6 @@ const createEmployeeRecord = function(row) {
   }
 }
 
-const createEmployeeRecords = function
+const createEmployeeRecords = function(rowData) {
+  
+}
