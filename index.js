@@ -17,3 +17,7 @@ const createEmployeeRecords = function(rowData) {
     return createEmployeeRecord(row)
   })
 }
+
+const createTimeInEvent = function(empRecord, dateStamp) {
+  
+}
