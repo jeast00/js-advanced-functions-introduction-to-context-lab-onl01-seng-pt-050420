@@ -42,7 +42,7 @@ const createTimeOutEvent = function(empRecord, dateStamp) {
     return empRecord
 }
 
-const hoursWorkedOnDate = function(empRecord, dateStamp) {
+const hoursWorkedOnDate = function(empRecord, foundDate) {
   let []
   
   
