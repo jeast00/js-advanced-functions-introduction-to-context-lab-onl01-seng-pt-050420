@@ -2,5 +2,8 @@
 
 
 const createEmployeeRecord = function(row) {
-  return Object.assign(fn, ln, title, pay)
+  return {
+    firstName: row[0],
+    familyName: row[1],
+  }
 }
