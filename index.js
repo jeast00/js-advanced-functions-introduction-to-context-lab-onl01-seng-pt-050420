@@ -55,7 +55,7 @@ const hoursWorkedOnDate = function(empRecord, foundDate) {
 }
 
 const wagesEarnedOnDate = function(empRecord, foundDate) {
-  let wageEarned = hoursWorkedOnDate(empRecord, foundDate) *
+  let wageEarned = hoursWorkedOnDate(empRecord, foundDate) * empRecord.payPerHour
 }
 
 
