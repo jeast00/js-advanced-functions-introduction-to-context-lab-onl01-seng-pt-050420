@@ -30,6 +30,18 @@ const createTimeInEvent = function(empRecord, dateStamp) {
   return empRecord
 }
 
+const createTimeOutEvent = function(empRecord, dateStamp) {
+  let [date, hour] = dateStamp.split(" ")
+  
+  empRecord.timeOutEvents.push(
+    {
+      type: "TimeOut",
+      hour: parseInt(hour, 10),
+      date,
+    })
+    return empRecord
+}
+
 
 
 
