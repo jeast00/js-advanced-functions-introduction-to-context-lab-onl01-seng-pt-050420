@@ -65,7 +65,7 @@ const allWagesFor = function(empRecord) {
     return event.date
   })
   
-  let pay = 
+  let pay = dates.find
 }
 
 
