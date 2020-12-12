@@ -60,6 +60,10 @@ const wagesEarnedOnDate = function(empRecord, foundDate) {
   return parseFloat(wageEarned.toString())
 }
 
+const allWagesFor = function(empRecord) {
+  
+}
+
 
 
 
