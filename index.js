@@ -23,6 +23,7 @@ const createTimeInEvent = function(empRecord, dateStamp) {
   
   empRecord.timeInEvents.push(
     {
+      type: "Time In",
       
     })
   
